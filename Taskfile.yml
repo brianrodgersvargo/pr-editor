@@ -1,6 +1,10 @@
 version: '3'
 
 tasks:
+  env:
+    desc: Install Python dependencies
+    cmd: pip install -r requirements.txt
+
   start:
     desc: Run the PR Editor Streamlit app
     cmd: python -m streamlit run app.py
