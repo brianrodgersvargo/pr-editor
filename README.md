@@ -52,6 +52,12 @@ Alternatively, you can paste the token directly in the app's sidebar — it won'
 ## Running
 
 ```bash
+task start
+```
+
+Or directly:
+
+```bash
 python -m streamlit run app.py
 ```
 
